@@ -1,11 +1,12 @@
 import axios, { AxiosResponse } from 'axios';
-import { IPostWithAd, IResponsePostList } from './types';
+import { IResponsePostList, TAG } from './types';
+// import { IPostWithAd, IResponsePostList, TAG } from './types';
 
 const instance = axios.create({
   headers: {
     'Content-Type': 'application/json',
   },
-  baseURL: 'http://34.22.77.64:8080',
+  baseURL: 'https://silco.verte.kr',
 });
 
 // todo (6) api 작성
@@ -14,18 +15,18 @@ export const getPostList = (): Promise<AxiosResponse<IResponsePostList>> => {
   return instance.get('/posts');
 };
 
-export const createPost = () => {
-  return null;
+export const createPost = (title: string, contents: string, tag: string) => {
+  return instance.post('/posts', { title, contents, tag });
 };
 
-export const getPostById = (id: number) => {
-  return instance.get(`/post/${id}`);
+export const getPostById = (id: string | undefined) => {
+  return instance.get(`/posts/${id}`);
 };
 
-export const updatePostById = () => {
-  return null;
+export const updatePostById = (id: string, title: string, content: string, tag: TAG) => {
+  return instance.patch(`/posts/${id}`, { title, content, tag });
 };
 
-export const deletePostById = () => {
-  return null;
+export const deletePostById = (id: string | undefined) => {
+  return instance.delete(`/posts/${id}`);
 };

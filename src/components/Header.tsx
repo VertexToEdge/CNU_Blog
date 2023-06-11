@@ -22,13 +22,19 @@ const Button = styled.button`
   transition: all 0.125s ease-in 0s;
   cursor: pointer;
 `;
+const H2 = styled.h2`
+font-weight: bold;
+font-size: 1.3125rem;
+`;
+
 
 const Header = () => {
   return (
     <div>
+      <br />
       <Wrapper>
         <Link to="/">
-          <h2>kimsudal.log</h2>
+          <H2>vertex.log</H2>
         </Link>
         <Link to="/write">
           <Button className="write-button">글쓰기</Button>
