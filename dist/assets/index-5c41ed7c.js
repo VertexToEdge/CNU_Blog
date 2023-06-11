@@ -91,7 +91,7 @@ Error generating stack: `+i.message+`
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-`,uv=e=>{const{id:t,title:n,contents:r,tag:o}=e;return w.jsxs(lv,{to:`/post/${t}`,children:[w.jsx("h2",{children:n}),w.jsx(sv,{children:r}),w.jsxs(hp,{children:["#",o]})]})},av="/assets/NOTHING_HERE-df5756c5.jpg",cv=B.div`
+`,uv=e=>{const{id:t,title:n,contents:r,tag:o}=e;return w.jsxs(lv,{to:`/post/${t}`,children:[w.jsx("h2",{children:n}),w.jsx(sv,{children:r}),w.jsxs(hp,{children:["#",o]})]})},av="//CNU_Blog/assets/NOTHING_HERE-df5756c5.jpg",cv=B.div`
   display: flex;
   width: 100%;
   height: 100%;
@@ -141,7 +141,7 @@ Error generating stack: `+i.message+`
   margin-top: 0.25rem;
   color: #222;
   letter-spacing: -0.004em;
-`,gv=()=>w.jsxs("div",{children:[w.jsxs(pv,{children:[w.jsx("div",{children:w.jsx(hv,{src:"https://ca.slack-edge.com/T056FRDDHPH-U058M8HTJ5A-62a5934060cf-512",alt:"프로필 사진"})}),w.jsxs("div",{children:[w.jsx(mv,{children:"홍성빈"}),w.jsx(yv,{children:"VertexToEdge 다 맨이야~"})]})]}),w.jsxs(dv,{children:[w.jsx($a,{to:"/",children:"포스트"}),w.jsx($a,{to:"/resume",children:"소개"})]}),w.jsx(Id,{})]}),vv="/assets/NOT_FOUND_IMG-6dc2cdae.jpg",wv=B.div`
+`,gv=()=>w.jsxs("div",{children:[w.jsxs(pv,{children:[w.jsx("div",{children:w.jsx(hv,{src:"https://ca.slack-edge.com/T056FRDDHPH-U058M8HTJ5A-62a5934060cf-512",alt:"프로필 사진"})}),w.jsxs("div",{children:[w.jsx(mv,{children:"홍성빈"}),w.jsx(yv,{children:"VertexToEdge 다 맨이야~"})]})]}),w.jsxs(dv,{children:[w.jsx($a,{to:"/",children:"포스트"}),w.jsx($a,{to:"/resume",children:"소개"})]}),w.jsx(Id,{})]}),vv="//CNU_Blog/assets/NOT_FOUND_IMG-6dc2cdae.jpg",wv=B.div`
   display: flex;
   width: 100%;
   height: 100%;
